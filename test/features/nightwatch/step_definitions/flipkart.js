@@ -17,7 +17,7 @@ Given('I open flipkart home page', async function() {
      allElements=  await browser.waitForElementVisible('._13oc-S ._4rR01T')
     //.findElements('._13oc-S ._4rR01T')
     .assert.textContains('._13oc-S ._4rR01T',expectedValue);
-     // console.log(result.value)
+    //  console.log(result.value)
      
     //  await allElements.forEach(function(element) {
     //  //console.log( element.getText());
